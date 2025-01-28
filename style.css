@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+:root {
+  --background: #C4B5A5;
+  --text-color: #000;
+  --button-bg: #FB982F;
+  --button-text: #fff;
+  --light-button-bg: #FB982F;
+  --light-button-text: #fff;
+  --dark-button-bg: #000;
+  --dark-button-text: #fff;
+}
+
+body.dark-mode {
+  --background: #000;
+  --text-color: #fff;
+  --button-bg: #FB982F;
+  --button-text: #000;
+  --light-button-bg: #C4B5A5;
+  --light-button-text: #000;
+  --dark-button-bg: #c4B5A5;
+  --dark-button-text: #fff;
+}
+
+.one,
+.ofe {
+  width: 131.77px;
+  height: 41.34px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.one {
+  background-color: var(--light-button-bg);
+  color: var(--light-button-text);
+}
+
+.ofe {
+  background-color: var(--light-button-bg);
+  color: var(--dark-button-text);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
+.header {
+  padding: 54px 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+.one {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+}
+
+.ofe {
+  background-color: var(--dark-button-bg);
+  color: var(--dark-button-text);
+}
+
+
+.left-right {
+  display: flex;
+  gap: 30px;
+  margin-top: 50  px;
+  align-items: center;
+}
+
+.left h2 {
+  color: var(--text-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 55.87px;
+  width: 426px;
+  height: 101px;
+}
+
+.left p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  color: var(--text-color);
+  padding-top: 77px;
+  width: 426px;
+}
+
+.btn {
+  width: 195px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--text-color);
+  background-color: var(--button-bg);
+  margin-top: 89px;
+  height: 53px;
+  border: none;
+}
+
+.left{
+  margin-right: 60px;
+  margin-left: 30px;
+}
+
+.right img{
+   width: 700px;
+}
